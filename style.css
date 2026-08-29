@@ -17,18 +17,12 @@ body {
     min-height: 100vh;
 }
 
-nav {
-    margin-top: 10px;
-    height: 40px;
-    background: #bdb2a3;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem calc((100vw - 1400px) / 2);
-    border: 1px solid #000000;
-    border-width: 2px;
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 20px;
+    text-align: center;
 }
-
 nav a {
     text-decoration: none;
     color: #000;
@@ -51,7 +45,7 @@ th, td {
     padding: 5px;
     text-align: center;
     font-size: 13px;
-    border: 3px double black;   /* inner double borders */
+    border: 2px double black;   /* inner double borders */
 
 }
 
@@ -82,7 +76,7 @@ table {
     border-left: solid;
     border-right: solid;
     border-bottom: solid;
-    border-width: 3px;
+    border-width: 2px;
     background-color: #fafafa;
     height: 500px;
 }
@@ -114,7 +108,7 @@ table {
     border-left: solid;
     border-right: solid;
     border-bottom: solid;
-    border-width: 3px;
+    border-width: 2px;
     background-color: #fafafa;
     min-height: 500px;
         width: 100%;
@@ -122,9 +116,9 @@ table {
 }
 
 .bio-pitch {
-    border-left: 3px solid;
-    border-right: 3px solid;
-    border-bottom: 3px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
     background-color: #fafafa;
     min-height: 2220px;
     width: 100%;

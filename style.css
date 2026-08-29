@@ -198,6 +198,7 @@ table {
     flex-direction: column;
     justify-content: center;
     border-width: 1px;
+    margin-bottom: 20px;
 }
 
 .item-three {

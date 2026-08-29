@@ -20,9 +20,10 @@ body {
 nav a {
     text-decoration: none;
     color: #000;
-    padding: 8px 20px;
+    padding: 10px 20px;
     text-align: center;
 }
+
 nav a {
     text-decoration: none;
     color: #000;
@@ -45,7 +46,7 @@ th, td {
     padding: 5px;
     text-align: center;
     font-size: 13px;
-    border: 2px double black;   /* inner double borders */
+    border: 1px double black;   /* inner double borders */
 
 }
 
@@ -108,7 +109,7 @@ table {
     border-left: solid;
     border-right: solid;
     border-bottom: solid;
-    border-width: 2px;
+    border-width: 1px;
     background-color: #fafafa;
     min-height: 500px;
         width: 100%;
@@ -116,9 +117,9 @@ table {
 }
 
 .bio-pitch {
-    border-left: 2px solid;
-    border-right: 2px solid;
-    border-bottom: 2px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
     background-color: #fafafa;
     min-height: 2220px;
     width: 100%;
@@ -149,7 +150,7 @@ table {
     border-left: solid;
     border-right: solid;
     border-bottom: solid;
-    border-width: 3px;
+    border-width: 1px;
     background-color: #fafafa;
     height: 500px;
 }
